@@ -1,6 +1,7 @@
-package dev.jpineda;
+package dev.jpineda.base;
 
 import com.google.gson.Gson;
+import dev.jpineda.Person;
 
 public class Main {
     static void main() {
