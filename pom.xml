@@ -15,6 +15,20 @@
             <artifactId>gson</artifactId>
             <version>2.13.2</version>
         </dependency>
+
+        <!-- Source: https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20250107</version>
+        </dependency>
+
+        <!-- Source: https://mvnrepository.com/artifact/org.everit.json/org.everit.json.schema -->
+        <dependency>
+            <groupId>org.everit.json</groupId>
+            <artifactId>org.everit.json.schema</artifactId>
+            <version>1.5.1</version>
+        </dependency>
     </dependencies>
 
     <properties>
