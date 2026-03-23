@@ -8,8 +8,20 @@ public class Main {
 
         Gson gson = new Gson();
 
-        String jsonPerson = gson.toJson(person);
+        String personToJson = gson.toJson(person);
 
-        System.out.println("jsonPerson = " + jsonPerson);
+        System.out.println("personToJson = " + personToJson);
+
+        personToJson = """
+                {
+                    "name": "John Doe",
+                    "age": 30,
+                    "isStudent": true
+                }
+                """;
+
+        Person personFromJson = gson.fromJson(personToJson, Person.class);
+
+        System.out.println("personFromJson = " + personFromJson);
     }
 }
