@@ -40,3 +40,4 @@ build/
 
 # Generated files on runtime
 person.json
+config.json
