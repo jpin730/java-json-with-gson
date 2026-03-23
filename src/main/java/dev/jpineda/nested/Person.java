@@ -46,4 +46,14 @@ public class Person {
     public void setHobbies(List<String> hobbies) {
         this.hobbies = hobbies;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", isActive=" + isActive +
+                ", hobbies=" + hobbies +
+                '}';
+    }
 }
